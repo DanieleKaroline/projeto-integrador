@@ -1,5 +1,4 @@
 body{
-    font: "Droid Sans", sans-serif;
     width:100%;
 }
 .banner{
@@ -14,8 +13,7 @@ body{
 }
 .banner p{
     color: rgb(230, 230, 230);
-    font:  35px "Droid Sans", sans-serif;
-    
+    font:  35px "Droid Sans", sans-serif
 }
 
 .img-fluid{
@@ -55,11 +53,20 @@ body{
 }
 .btn1:active, .btn1:focus{  
     background-color: #102770;
-    color: #ffeba7;
     box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 .btn1:hover{  
     background-color: #a52216e3;
     color: #ececec;
     box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+nav .btn{
+    color: #ececec;
+    border-color: #251f41ef;
+    background-color: #251f41ef;;
+}
+nav .btn:hover{
+    color: #ececec;
+    border-color: #a52216e3;
+    background-color: #a52216e3;
 }
