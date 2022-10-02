@@ -1,5 +1,5 @@
 body{
-    
+    background: #f1f1f1;
     font: "Droid Sans", sans-serif;
 }
 
@@ -84,7 +84,7 @@ nav .btn:hover{
     margin-top: 2%;
     width: 380px;
     height: auto;
-    padding: 0 0  20px;
+    padding: 30px;
 }
 .col p{
     text-align: justify;
